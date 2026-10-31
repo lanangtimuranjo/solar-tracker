@@ -1,4 +1,3 @@
-Research data and source codes for:
 # Power Optimization of Photovoltaic Systems Using a Single-Axis Solar Tracker and AM-P&O Based MPPT
 
 ## Overview
