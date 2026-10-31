@@ -3,28 +3,17 @@ Research data and source codes for PV power optimization using a single-axis sol
 # Power Optimization of Photovoltaic Systems Using a Single-Axis Solar Tracker and AM-P&O Based MPPT
 
 ## Overview
-This repository contains the datasets, MATLAB simulation models, and microcontroller source codes generated during the research study: **"Power Optimization of Photovoltaic Systems Using a Single-Axis Solar Tracker and AM-P&O Based MPPT."** 
-
-To accurately reflect the research methodology, the files are separated into two main workflows: Simulation and Physical Prototyping.
+This repository contains the MATLAB Simulink model and the resulting datasets generated during the research study: **"Power Optimization of Photovoltaic Systems Using a Single-Axis Solar Tracker and AM-P&O Based MPPT."** 
 
 ## Repository Structure
 
 ### 1. MATLAB Simulation (`/MATLAB_Simulation`)
-This directory contains the simulation models evaluating the AM-P&O MPPT algorithm applied to a SEPIC converter topology.
-*   `.slx` files: Simulink models of the PV system and converter.
-*   `.m` files: MATLAB scripts for initialization and data plotting.
-*   `.mat` files: Saved workspace data from the simulation results.
-
-### 2. Hardware Prototyping & Datasets (`/Hardware_Data`)
-This directory contains the experimental datasets and Arduino codes used to evaluate the physical performance of the fixed-tilt versus single-axis solar tracker configurations over specific time parameters. *(Note: The hardware testing focuses on the tracking system performance, independent of the MPPT hardware performance).*
-*   **Arduino Code**: Source code for controlling the single-axis solar tracker.
-*   **Irradiance Data**: Secondary solar irradiance data retrieved from Solcast.
-*   **Tracker Data**: Solar tracker angle logs recorded via the Arduino IDE serial monitor.
-*   **Power Output Data**: Comparative power output datasets between the fixed-tilt and single-axis tracker setups.
+This directory contains the simulation model evaluating the AM-P&O MPPT algorithm applied to a SEPIC converter topology, alongside the consolidated results data.
+*   `.slx` file: The Simulink model of the PV system and converter.
+*   `MATLAB_Simulation_Results.xlsx`: Comprehensive datasets of the simulation results, including steady-state power oscillations, dynamic tracking responses, and daily performance comparisons between P&O and AM-P&O algorithms.
 
 ## How to Use
-*   **Simulation**: Navigate to the `/MATLAB_Simulation` folder. Run the initialization `.m` script before executing the `.slx` Simulink model to observe the MPPT performance.
-*   **Data Analysis**: The hardware datasets can be opened using standard spreadsheet software (e.g., Excel, CSV viewers) or imported into MATLAB for further data processing.
+*   **Simulation**: Navigate to the `/MATLAB_Simulation` folder. Open the `.slx` file directly in MATLAB/Simulink to observe the MPPT performance, or open the `.xlsx` file to review the extracted data and performance metrics.
 
 ## Author
 Lanang Timur Anjo
