@@ -6,7 +6,7 @@ This repository contains the MATLAB Simulink model and the resulting datasets ge
 
 ## Repository Structure
 
-### 1. MATLAB Simulation (`/MATLAB_Simulation`)
+### MATLAB Simulation (`/MATLAB_Simulation`)
 This directory contains the simulation model evaluating the AM-P&O MPPT algorithm applied to a SEPIC converter topology, alongside the consolidated results data.
 *   `.slx` file: The Simulink model of the PV system and converter.
 *   `MATLAB_Simulation_Results.xlsx`: Comprehensive datasets of the simulation results, including steady-state power oscillations, dynamic tracking responses, and daily performance comparisons between P&O and AM-P&O algorithms.
